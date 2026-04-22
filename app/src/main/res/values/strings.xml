@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Rally Tripmeter</string>
+    <string name="permission_location_required">Les permissions de localisations sont requises</string>
+    <string name="satellites">Satellites :</string>
+    <string name="kmh">km/h</string>
+    <string name="distance">Distance</string>
+    <string name="average_speed">Vitesse moyenne</string>
+    <string name="reset">Reset</string>
+    <string name="record">Enregistrer</string>
+    <string name="resume">Reprendre</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Arrêter</string>
+    <string name="export_paths">Exporter les trajets</string>
+    <string name="export_kml">Exporter</string>
+    <string name="back">Retour</string>
+    <string name="quit_app">Quitter l\'application</string>
+    <string name="recording_in_progress">Un enregistrement est en cours. Voulez-vous continuer l\'enregistrement en arrière-plan ?</string>
+    <string name="really_quit">Voulez-vous vraiment quitter l\'application ?</string>
+    <string name="yes">Oui</string>
+    <string name="no_stop">Non, arrêter</string>
+    <string name="cancel">Annuler</string>
+    <string name="in_progress">En cours</string>
+    <string name="exported_to_documents">Exporté vers Documents</string>
+    <string name="export_error">Erreur lors de l\'export</string>
+    <string name="notification_title">Rally Tripmeter</string>
+    <string name="notification_text">Enregistrement de la position en cours</string>
+</resources>
