@@ -132,7 +132,7 @@ class MainActivity : ComponentActivity(), LocationListener {
         super.onCreate(savedInstanceState)
 
         // Configure edge-to-edge with dark gray system bars
-        WindowCompat.setDecorFitsSystemWindows(window, false)
+        WindowCompat.setDecorFitsSystemWindows(window, true)
         val controller = WindowInsetsControllerCompat(window, window.decorView)
         controller.isAppearanceLightStatusBars = false
         controller.isAppearanceLightNavigationBars = false
@@ -396,7 +396,7 @@ fun RallyTripmeterScreen(
         Row(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(24.dp),
+                .padding(12.dp, 0.dp),
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
@@ -622,7 +622,7 @@ fun RallyTripmeterScreen(
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(24.dp),
+                .padding(12.dp, 0.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.SpaceBetween
         ) {
